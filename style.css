@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2fr 2fr; 
+    font-size: larger;
+    margin: 0px;
+    max-width: 1000px;
+    min-height: 100px;
+}
+
+.left{
+    position: initial;
+    /* flex:1; */
+    padding: 20px;
+    background-color:rgb(235, 235, 235);
+}
+.right{
+    position:initial;
+    /* flex:1; */
+    
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.image, .contact, .kill, .Language, .sports, .title, 
+.summary, .award, .education, .project {
+    margin-bottom: 30px;
+}
+.he{
+    background: #000000;
+    padding: 15px;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+}
+.all{
+    padding: 20px;
+}
